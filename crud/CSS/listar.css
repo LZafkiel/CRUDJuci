@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.clientes-header {
+    background-color: #ff4400;
+    color: #ffffff; 
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+}
+
+.user-table {
+    border: 2px solid #ff4400;
+    width: calc(100% - 40px);
+    border-collapse: collapse;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.user-table th, .user-table td {
+    border: 1px solid #ff4400;
+    text-align: left;
+    padding: 8px;
+}
+
+.user-table th {
+    background-color: #ff4400;
+}
+
+.user-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.action-link {
+    text-decoration: none;
+    color: #ff4400;
+    margin-right: 10px;
+}
+
+.action-link:hover {
+    text-decoration: underline;
+}
